@@ -1,6 +1,5 @@
 # 🛡️ ProofSeal: Immutable Digital Notary
 
-![ProofSeal Banner](https://raw.githubusercontent.com/lucide-react/lucide/main/icons/shield-check.svg)
 
 > **Seal the Unalterable.** ProofSeal is a high-fidelity document verification protocol that leverages blockchain technology to provide cryptographic proof of existence and integrity.
 
