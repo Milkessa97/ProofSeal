@@ -34,15 +34,9 @@ export default function App() {
         </div>
         
         <div className="relative">
-          {/* Section Divider Line */}
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-          
           <div className="snap-section">
             <ActionHub onSuccess={handleActionSuccess} />
           </div>
-          
-          {/* Section Divider Line */}
-          <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent my-20" />
           
           <div className="snap-section">
             <BlockchainExplorer />
@@ -59,8 +53,9 @@ export default function App() {
 
       {/* Global Background Elements */}
       <div className="fixed inset-0 pointer-events-none -z-20 overflow-hidden">
-        <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-brand-accent/5 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[50%] h-[50%] bg-indigo-900/5 rounded-full blur-[120px]" />
+        <div className="absolute top-[-10%] right-[-10%] w-[70%] h-[70%] bg-brand-accent/5 rounded-full blur-[140px]" />
+        <div className="absolute top-[40%] left-[-10%] w-[60%] h-[60%] bg-indigo-900/5 rounded-full blur-[140px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-brand-accent/5 rounded-full blur-[140px]" />
         
         {/* Subtle Grid Overlay */}
         <div 
